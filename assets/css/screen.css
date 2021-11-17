@@ -2,11 +2,11 @@ h1 {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.js h1 {
+#home.js h1 {
   color: red;
   cursor: pointer;
 }
 
-h1.was-clicked {
+#home.js h1.was-clicked {
   color: green;
 }
