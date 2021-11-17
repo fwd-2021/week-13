@@ -1,6 +1,8 @@
-document.querySelector('html').className = 'js';
+'use strict';
 
 var h1 = document.querySelector('h1');
+
+document.querySelector('html').className = 'js';
 
 h1.addEventListener('click', handleHeadingClick);
 
