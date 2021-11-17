@@ -5,5 +5,7 @@ var h1 = document.querySelector('h1');
 h1.addEventListener('click', handleHeadingClick);
 
 function handleHeadingClick(event) {
-  event.target.innerText = 'Hello from non-anonymous targeted JavaScript';
+  var heading = event.target;
+  heading.innerText = 'Hello from non-anonymous targeted JavaScript';
+  heading.className = 'was-clicked';
 }
