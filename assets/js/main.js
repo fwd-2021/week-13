@@ -14,3 +14,11 @@ function handleHeadingClick(event) {
   heading.innerText = 'Hello from non-anonymous targeted JavaScript';
   heading.className = 'was-clicked';
 }
+
+
+var form = document.querySelector('#form-demo');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  console.log('OMG form submitted!');
+})
